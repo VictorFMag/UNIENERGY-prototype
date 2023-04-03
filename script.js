@@ -18,7 +18,7 @@ quemSomos_btn.addEventListener('click', function () {
 });
 
 servicos_btn.addEventListener('click', function () {
-    window.scroll(0, findPos(document.getElementById("services")));
+    window.scroll(0, findPos(document.getElementById("servicos")));
 });
 
 contato_btn.addEventListener('click', function () {
