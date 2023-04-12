@@ -20,22 +20,29 @@
 <body>
   <!--Navbar-->
   <header data-bs-theme="dark">
-    <div class="navbar fixed-top navbar-dark bg-dark shadow-sm">
+    <div class="navbar navbar-expand-lg fixed-top shadow text-bg-dark">
       <div class="container">
         <div class="navbar-brand d-flex align-items-center">
           <img src="./logos/logo1_transparente.png" height="50">
         </div>
-        <ul class="nav justify-content-left">
-          <li class="nav-item" id="btn_quemSomos">
-            <a class="nav-link text-white">Quem somos</a>
-          </li>
-          <li class="nav-item" id="btn_servicos">
-            <a class="nav-link text-white">Serviços</a>
-          </li>
-          <li class="nav-item" id="btn_contato">
-            <a class="nav-link text-white">Contato</a>
-          </li>
-        </ul>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbar">
+          <ul class="nav justify-content-left">
+            <li class="nav-item" id="btn_quemSomos">
+              <a class="nav-link text-white" style="font-size: 18px;">Quem somos</a>
+            </li>
+            <li class="nav-item" id="btn_servicos">
+              <a class="nav-link text-white" style="font-size: 18px;">Serviços</a>
+            </li>
+            <li class="nav-item" id="btn_contato">
+              <a class="nav-link text-white" style="font-size: 18px;">Contato</a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </div>
   </header>
