@@ -72,7 +72,7 @@
 }
 
 #hero {
-  background-image: url(./images/bg_main.webp);
+  background-image: url('https://img.freepik.com/fotos-gratis/arranjo-de-paineis-solares-de-alto-angulo_23-2149352232.jpg?w=1380&t=st=1706813126~exp=1706813726~hmac=5b306130b350c4061bf88814d2ffccae3157b7d4b12c9910754e745ec5023c5a');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
